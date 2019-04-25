@@ -1,0 +1,12 @@
+Source: gpiotest
+Section: misc
+Priority: optional
+Maintainer: Manuel Traut <manut@slartibartfast>
+Build-Depends: debhelper (>= 9), libgpio-dev
+Standards-Version: 3.9.8
+
+Package: gpiotest
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: simple package for testing elbe pbuilder builds
+ to test elbe pbuilder builds that include a dependency to the local repo
